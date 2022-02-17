@@ -13,14 +13,10 @@ function WatchedFilms() {
                     <span className='count-pill'>{watched.length} {watched.length === 1 ? 'Movie' : 'Movies'}</span>
                 </div>
                 <div className="movie-grid">
-                    {watched.length > 0
-                        ? (
+                    {watched && (
                             watched.map((movie) => (
                                 <MovieCard movie={movie} type='watched'/>
-                            )))
-                        : (
-                            <h2 className='no-movies'>No movies in your list, add some!</h2>
-                        )}
+                            )))}
                 </div>
             </div>
         </div>

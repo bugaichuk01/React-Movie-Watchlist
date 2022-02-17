@@ -20,9 +20,9 @@ function App() {
         <Router>
             <Header/>
             <Routes>
-                <Route exact path='/' element={<WatchList/>}></Route>
-                <Route path='/watched' element={<WatchedFilms/>}></Route>
-                <Route path='/add' element={<AddFilm/>}></Route>
+                <Route exact path='/' element={<WatchList/>}/>
+                <Route path='/watched' element={<WatchedFilms/>}/>
+                <Route path='/add' element={<AddFilm/>}/>
             </Routes>
         </Router>
     );

@@ -13,14 +13,10 @@ function WatchList() {
                     <span className='count-pill'>{watchlist.length} {watchlist.length === 1 ? 'Movie' : 'Movies'}</span>
                 </div>
                 <div className="movie-grid">
-                    {watchlist.length > 0
-                        ? (
+                    {watchlist && (
                             watchlist.map((movie) => (
                                 <MovieCard movie={movie} type='watchlist'/>
-                            )))
-                        : (
-                            <h1 className='no-movies'>No movies in your list, add some!</h1>
-                        )}
+                            )))}
                 </div>
             </div>
         </div>
