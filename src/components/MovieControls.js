@@ -28,14 +28,14 @@ function MovieControls({movie, type}) {
                         onClick={addMovie}
                         className="ctrl-btn"
                     >
-                        <i className="fa-fw far fa-eye"></i>
+                        <i className="fa-fw far fa-eye"/>
                     </button>
 
                     <button
                         onClick={removeWatchlist}
                         className="ctrl-btn"
                     >
-                        <i className="fa-fw fa fa-times"></i>
+                        <i className="fa-fw fa fa-times"/>
                     </button>
                 </>
             )}
@@ -46,14 +46,14 @@ function MovieControls({movie, type}) {
                         onClick={toWatchlist}
                         className="ctrl-btn"
                     >
-                        <i className="fa-fw far fa-eye-slash"></i>
+                        <i className="fa-fw far fa-eye-slash"/>
                     </button>
 
                     <button
                         onClick={removeWatched}
                         className="ctrl-btn"
                     >
-                        <i className="fa-fw fa fa-times"></i>
+                        <i className="fa-fw fa fa-times"/>
                     </button>
                 </>
             )

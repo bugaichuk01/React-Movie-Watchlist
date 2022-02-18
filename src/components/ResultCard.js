@@ -26,7 +26,7 @@ function ResultCard({movie}) {
                              alt={`${movie.title} Poster`}
                         />
                     ) : (
-                        <div className="filter-poster"></div>
+                        <div className="filter-poster"/>
                     )}
                 </div>
                 <div className="info">
