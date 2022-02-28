@@ -7,8 +7,12 @@ This is a Movie App built in ReactJS. It uses open [The Movie Database (TMDb) AP
 
 # Features
 
-- ### Search movies by title
-- ### Add movie to watchlist
-- ### Remove movie from watchlist
-- ### Add movie to watched
-- ### Remove movie from watched
+- Search movies by title
+- Add movie to watchlist
+-Remove movie from watchlist
+- Add movie to watched
+- Remove movie from watched
+
+# Technical Notes
+- State management using React-Redux
+- Environment set-up using Create-React-App
