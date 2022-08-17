@@ -1,4 +1,4 @@
-# TMDb Movie Watchlist
+# TMDB Movie Watchlist
 
 This is a Movie App built in ReactJS. It uses open [The Movie Database (TMDb) API] \
 (https://www.themoviedb.org/documentation/api) to display data.
